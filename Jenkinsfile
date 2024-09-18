@@ -12,7 +12,7 @@ pipeline {
         stage('pull') {
             steps {
                 // Get some code from a GitHub repository
-                git credentialsId: 'git', url: 'git@github.com:ir0nware25/jenkins_test.gi'
+                git credentialsId: 'git', url: 'git@github.com:ir0nware25/jenkins_test.git'
                 }
         }
         
